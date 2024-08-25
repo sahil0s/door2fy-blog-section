@@ -1,0 +1,99 @@
+.heading {
+    background-color:white;
+    color: #000000;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0 0 80px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  
+  
+  .heading h1 {
+    margin: 3;
+    font-size:37px;
+  }
+
+  .electronics-section {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+   
+  }
+  
+  .electronics-card {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 80px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    margin-left:250px;
+    margin-right:250px;
+    cursor:Pointer;
+  }
+  
+  .electronics-item {
+    text-align: center;
+
+  }
+  
+  .electronics-image-container {
+    position: relative;
+    width: 80px; /* Small shape for the image */
+    height: 80px; /* Small shape for the image */
+    border-radius: 50%;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    
+  }
+  
+  .electronics-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .electronics-text {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .electronics-card {
+      grid-template-columns: repeat(3, 1fr); /* Adjust to 2 columns on smaller screens */
+      gap:40px;
+    }
+  
+    .heading h1 {
+      margin: 3;
+      font-size: 1.5em;
+      margin-top:-20px;
+    }
+
+    .electronics-section {
+margin-top:-50px;
+    }
+
+    .electronics-image-container {
+      width: 60px; /* Reduce size on smaller screens */
+      height: 60px; /* Reduce size on smaller screens */
+    }
+  
+    .electronics-text {
+      font-size: 12px; /* Reduce text size on smaller screens */
+      color: #6A6A6A;
+      font-weight: bold;
+    }
+  }
