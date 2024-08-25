@@ -5,7 +5,7 @@
   margin: 0;
   position: relative;
  
-  background: url('c:\Users\gagan\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\17CA61BCB9EFD6EA6EF301460FA18759\doodle-background.296efd59.svg');
+  background-image: url('/public/images/banner.svg');
   font-family: 'Poppins', sans-serif;
   background-color:#15939A;
   background-position: center;
@@ -23,7 +23,7 @@
     /* background-color: #15939A; */
     
     position: relative;
-    background-image: url('c:\Users\gagan\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\17CA61BCB9EFD6EA6EF301460FA18759\doodle-background.296efd59.svg');
+    background-image: url('/public/images/banner.svg');
     display: flex;
     color: #fff;
     justify-content: center;
