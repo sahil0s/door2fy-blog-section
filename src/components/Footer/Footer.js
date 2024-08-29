@@ -1,5 +1,8 @@
 import React from 'react';
 import './Footer.css';
+import '../blog/Blog'
+import { Link } from 'react-router-dom';
+
 
 const Footer = () => {
   return (
@@ -11,7 +14,7 @@ const Footer = () => {
             <li>About Us</li>
             <li>Careers</li>
             <li>Press</li>
-            <li>Blog</li>
+            <li><Link to="/blog" className='blog'>Blog</Link></li>
           </ul>
         </div>
         <div className="footer-column">
