@@ -1,0 +1,177 @@
+
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #15939A;
+    padding: 15px 20px;
+    color: white;
+ 
+     /* Ensure width does not exceed 100% */
+
+  }
+
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo img {
+    height: 40px;
+    cursor: pointer;
+    /* margin-left:10px; */
+    /* margin-top:5px; */
+  }
+  
+  .menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 10px; /* Add space between menu toggle and logo */
+  }
+  
+  .navbar-menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar-menu li {
+    margin: 0 15px;
+    cursor: pointer;
+   
+
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+   /* margin:auto; */
+  }
+  
+  .signin-container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px 15px;
+    color: #333;
+    cursor: pointer;
+    margin-right: 30px; /* Space between sign-in and cart icon */
+  }
+  
+  .signin-icon {
+    background-color: #15939A;
+    border-radius: 50%;
+    padding: 5px;
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .signin-text {
+    font-size: 16px;
+    color:#15939A;
+    text-decoration: none;
+  }
+
+  .signinclass{
+     display: flex;
+    align-items: center;
+    gap: 5px;
+   
+    
+   
+
+    text-decoration: none;
+
+  }
+  
+  .cart-icon {
+    font-size: 24px;
+    cursor: pointer;
+    /* margin-right: 250px;  */
+  }
+  
+  .navbar-icons .cart-icon:hover,
+  .navbar-logo img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      justify-content: space-between;
+    }
+  
+    .menu-toggle {
+      display: block;
+    }
+  
+    .navbar-menu {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      background-color: #333;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      z-index: 1;
+    }
+
+    .navbar-logo img {
+      height:30px;
+      margin-left:0px;
+    }
+  
+    .navbar-menu.open {
+      display: flex;
+    }
+  
+    .navbar-menu li {
+      margin: 15px 0;
+      text-align: center;
+    }
+  
+    .navbar-left {
+      display: flex;
+      align-items: center;
+      flex: 1;
+    }
+  
+    .navbar-logo {
+      margin-left: 10px;
+    }
+  
+    .navbar-right {
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;
+    
+    }
+  
+    .signin-container {
+      padding: 5px 10px;
+      margin-right: 15px;
+      margin-bottom: 10px;
+      margin-top:10px;
+    }
+  
+    .signin-text {
+      display: none; /* Hide the text on smaller screens */
+    }
+  
+    .signin-icon {
+      margin-right: 0;
+    }
+  
+    .cart-icon {
+      margin-right: 0;
+    }
+  }

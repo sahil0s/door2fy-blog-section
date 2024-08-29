@@ -1,0 +1,483 @@
+.ac-repair-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .ac-repair-image {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .ac-repair-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .ac-repair-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .ac-repair-content h1 {
+    font-size: 46pxpx;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .ac-repair-content p {
+    font-size: 16px;
+    color: #6A6A6A;
+    margin-bottom: 20px;
+  }
+  
+  .get-started-button {
+    background-color: #fCBA00;
+    color: black;
+    padding: 10px 40px; /* Adjust padding for the desired shape */
+    border: none;
+    border-radius: 50px; /* Make the button cylindrical */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+
+
+                            /* // New Section  // */
+
+
+  .ac-repair-section {
+   display: flex; 
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  background:white;
+
+ border-size:3px;
+ border-color:black; 
+
+  }
+  .banner{
+    background-image:  url('/public/images/banner.svg');
+   height:400px;
+   position:absoulute;
+    background-color:#15939A ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    margin-top: 60px;
+  
+  
+  }
+  
+  .ac-repair-left {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .ac-repair-left h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  
+ 
+  .ac-repair-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .ac-repair-list li {
+    margin-bottom: 40px;
+    font-size: 20px;
+    margin-left:40px;
+    color: #333;
+    display: flex;
+    align-items: center;
+  }
+  
+  .bullet-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    background-color: #15939A; /* Blue background */
+    color: #fff; /* White color for the check icon */
+    border-radius: 50%; /* Makes the bullet circular */
+    margin-right: 10px; /* Space between the bullet and text */
+    font-size: 14px; 
+  }
+  
+  .ac-repair-list li::marker {
+    content: none;
+  }
+  
+
+  
+ .service-info {
+    font-size: 14px;
+    color: #555;
+    margin-top: 20px;
+  } 
+  
+
+  .ac-repair-right {
+    flex: 1;
+    padding: 20px;
+    margin-top:10px;
+  }
+   
+  .ac-repair-right h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .ac-repair-right p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  } 
+
+  .ac-services-container {
+    padding: 20px;
+    
+  }
+  
+  .service-type-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .service-type-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 1px solid #007bff;
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .service-type-button.active {
+    background-color:#15939A;
+    color:black;
+  }
+  
+  .service-cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    
+  }
+  
+  .service-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    position: relative;
+
+
+   
+  
+   
+  }
+  
+  .card-left {
+    flex: 2;
+  }
+  
+  .card-left h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .card-left p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .card-right {
+    flex: 1;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .card-right p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    margin-right:15px;
+  }
+  
+  .add-button {
+    background-color: white;
+    color: #15939A;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid #15939A;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  
+  }
+  .add-button:hover {
+    background-color: gre;
+  }
+  
+
+  
+  .dropdown-icon {
+    font-size: 20px;
+  }
+  
+  .service-details {
+    margin-top: 10px;
+    padding-left: 20px;
+    list-style-type: none;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .service-details li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .service-details li::before {
+    content: '✔';
+    color: #007bff;
+    margin-right: 10px;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+ 
+    .ac-repair-container {
+      flex-direction:  column;
+      text-align: center;
+    }
+  
+    .ac-repair-image, .ac-repair-content {
+      padding: 10px;
+    }
+
+    .ac-repair-section {
+      flex-direction: column-reverse; /* On mobile: Show right side first */
+    align-items: flex-start;
+    margin-top:-80px;
+    }
+
+    .ac-repair-section{
+     
+    }
+
+    .ac-repair-left h2{
+      font-size: 18px;
+    }
+
+    .ac-repair-list li {
+      margin-bottom: 40px;
+      font-size: 16px;
+      margin-left:20px;
+     
+    }
+
+    .bullet-icon {
+      width: 18px;
+      height: 18px;
+    }
+    
+
+    .service-type-buttons {
+   margin-left:20px;
+    }
+    .service-cards {
+      grid-template-columns: 1fr;
+     margin-left:-30px;
+     gap:2px;
+    }
+    .ac-repair-right{
+      margin-right:40px;
+      margin-top:50px;
+    }
+    .ac-repair-right h2{
+      margin-left:20px;
+    }
+    .ac-repair-right p{
+      margin-left:20px;
+    }
+
+    .service-type-button {
+      padding:8px;
+    }
+  
+.service-card{
+  width: 120%; 
+  height: 100px;
+  padding: 12px;
+  margin: 20px auto;
+
+  /* padding: 20px; */
+  border: 1px solid #ccc;
+  border-radius: 10px; 
+
+
+}
+
+.card-left h3 {
+margin-left:-27px;
+}
+
+.card-left p{
+ margin-left:-10px;
+}
+
+.card-right p{
+font-size:15px;
+
+}
+ 
+    .add-button {
+      padding:3px 10px;
+      margin-left:30px;
+      margin-top:5px;
+    }
+
+
+
+  }
+
+
+  /* 3 section */
+  .why-choose-section {
+    background-color: #f5f5f5; /* Light background color */
+    padding: 40px 20px;
+    text-align: center;
+    margin-top:1px;
+  }
+  
+  .why-choose-heading {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .why-choose-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .why-choose-item {
+    text-align: center;
+    max-width: 200px;
+  }
+  
+  .why-choose-image {
+    width: 80px; /* Small image size */
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .why-choose-item-heading {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .why-choose-item-subheading {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .why-choose-grid {
+      flex-direction: column;
+      gap: 20px;
+    }
+    .why-choose-section {
+      margin-top:1px;
+    }
+
+    .why-choose-heading {
+font-size:22px;
+    }
+  }
+
+
+
+  
+.toggle-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5em;
+}
+
+.card-details {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.card-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card-details li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.check-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  background-color: #15939A; /* Blue background */
+  color: #fff; /* White color for the check icon */
+  border-radius: 50%; /* Makes the bullet circular */
+  margin-right: 10px; /* Space between the bullet and text */
+  font-size: 14px; 
+}
+  
+
+
+
+
+
+  
+
+  
+  

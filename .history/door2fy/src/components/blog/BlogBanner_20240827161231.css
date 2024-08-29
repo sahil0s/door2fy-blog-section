@@ -1,0 +1,27 @@
+
+.blog-banner{
+  background-image:  url('/public/images/banner.svg');
+ height:400px;
+ position:absoulute;
+  background-color:#15939A ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  margin-top: 60px;
+
+
+}
+  .blog-banner h1 {
+    font-size: 3rem; /* Large heading size */
+    margin: 0px; /* Remove default margin */
+    font-weight: bold; /* Bold text */
+    text-align: center;
+  }
+  
+  .blog-banner p {
+    font-size: 1.2rem; /* Slightly larger text for readability */
+    marg /* Space between heading and paragraph */
+  }
+  

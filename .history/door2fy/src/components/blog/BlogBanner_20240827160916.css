@@ -1,0 +1,27 @@
+Banner.css */
+/* /* .banner { */
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.5), /* Gradient start color (black with 50% opacity) */
+      rgba(0, 0, 0, 0.5) /* Gradient end color (black with 50% opacity)
+    ),
+    url('https://source.unsplash.com/1600x400/?nature,technology') no-repeat center center; Background image
+    background-size: cover; Cover the entire banner area
+    color: #fff; Text color
+    text-align: center; Center align text
+    margin: 45px;
+    padding: 60px 20px; Padding for banner
+    border-bottom: 2px solid #ddd; Border bottom for separation
+  /* } */ */
+  
+  .banner h1 {
+    font-size: 3rem; /* Large heading size */
+    margin: 45px; /* Remove default margin */
+    font-weight: bold; /* Bold text */
+    text-align: center;
+  }
+  
+  .banner p {
+    font-size: 1.2rem; /* Slightly larger text for readability */
+    margin-top: 10px; /* Space between heading and paragraph */
+  }
+  

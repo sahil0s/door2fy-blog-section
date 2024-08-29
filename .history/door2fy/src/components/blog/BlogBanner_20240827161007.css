@@ -1,0 +1,14 @@
+/*  */
+  
+  .banner h1 {
+    font-size: 3rem; /* Large heading size */
+    margin: 45px; /* Remove default margin */
+    font-weight: bold; /* Bold text */
+    text-align: center;
+  }
+  
+  .banner p {
+    font-size: 1.2rem; /* Slightly larger text for readability */
+    margin-top: 10px; /* Space between heading and paragraph */
+  }
+  
